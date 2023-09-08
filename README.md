@@ -40,10 +40,6 @@ You can see all the prducts here and you can update any product that you want ad
 
 ![products](https://www.imgbly.com/ib/yXstXnYxpg.png)
 
-## **2)Products Page**
-You can see all the prducts here and you can update any product that you want adding more items in stock after running out for example or even apply disscounts or delete some products 
-
-![products](https://www.imgbly.com/ib/yXstXnYxpg.png)
 
 ## **3)Orders Page**
 Here you can keep track of all the orders placed by your customers joining all the tables to get the most important information as an admin you can delete the delevired orders just with a simple click
