@@ -1,0 +1,45 @@
+html{
+    background-color: rgb(9, 9, 29);
+}
+
+table{
+    background-color: #1b1a1a;
+}
+h1{
+    color: rgb(123, 151, 151);
+    text-align: center;
+}
+th{
+    color: white;
+    font-size: larger;
+
+}
+td{
+    color: white;
+    font-size: larger;
+}
+form{
+    background-color: #1b1a1a;
+    display: block;
+}
+label{
+    color: white;
+
+}
+
+input[type="submit"] {
+
+    background-color: #4CAF50;
+     border-radius: 8px;
+     color: white;
+     border: none;
+     cursor: pointer;
+}
+
+input[type="file"] {
+color: white;
+}
+
+#ordertable{
+    margin-left: 30%;
+}

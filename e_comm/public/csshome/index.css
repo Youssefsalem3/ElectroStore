@@ -1,0 +1,423 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+html {
+    background-color: rgb(24, 23, 23);
+}
+
+body {
+    color: rgb(149, 101, 10);
+
+    font-family: system-ui;
+}
+
+.section {
+    padding: 50px 10%;
+}
+
+.header-container {
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 170px;
+    z-index: 3;
+}
+
+.logo {
+    color: rgb(249, 249, 248);
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.navbar-container {
+    display: flex;
+}
+
+.navbar-container a {
+    color: rgb(250, 247, 247);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.navbar-container a:hover {
+    background-color: grey;
+}
+
+.navbar-container a:visited {
+    background-color: grey;
+}
+
+.navbar-container span {
+    color: grey;
+}
+
+.home-container {
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    background-image: url('../mainimages/neonn.jpg');
+    background-size: cover;
+    text-align: center;
+    z-index: 2;
+    margin-bottom: 60px;
+}
+
+
+html {
+    height: 1000px;
+}
+
+.home-container h1 {
+    font-family: 'Bebas Neue', serif;
+    font-size: 60px;
+    color: #ffffff;
+    padding-top: 50px;
+}
+
+.home-container h2 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin-top: -10px;
+    background-color: #ff8801;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.list-items-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: -140px;
+}
+
+.box {
+    background-color: #fff;
+    border: solid;
+    margin: 30px;
+    float: left;
+    width: 600px;
+    padding-bottom: 30px;
+    border-color: black;
+}
+
+.list-items-container .box .btn {
+    padding: 5px 5px;
+    margin-bottom: auto;
+    background-color: #f18007;
+    color: #fff;
+    border-radius: 0px;
+
+}
+
+.box p {
+    color: black;
+}
+
+.box input[type="number"] {
+    padding: 5px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+}
+
+.services-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-container p {
+    text-align: center;
+    color: black;
+}
+
+.services-container img {
+    width: 550px;
+    height: 500px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.col {
+    padding: 30px;
+}
+
+.col h4 {
+    font-size: 20px;
+    color: black;
+
+}
+
+.col a {
+    color: #2f2d2c;
+}
+
+.email-input {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+.footer-container {
+    background-color: rgb(240, 235, 235);
+}
+
+
+.footer-container span {
+    color: grey;
+}
+
+
+
+
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    padding-bottom: 50px;
+}
+
+.product {
+    margin-right: 70px;
+}
+
+#categoryname {
+    font-size: 50px !important;
+    color: #ccc;
+    padding-bottom: 30px;
+    margin-left: 40px;
+    font-family: 'Bebas Neue', serif;
+}
+
+
+.product-container p {
+    color: #ccc;
+    font-size: 20px;
+}
+
+.product-container .product a {
+    display: inline-block;
+    position: relative;
+
+}
+
+.product-container .product img {
+    border-radius: 10px;
+}
+
+.product-container .product a:hover img {
+    transform: translateY(-10px);
+    box-shadow: 0px 5px 10px rgba(235, 225, 225, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#searchInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 16px;
+}
+
+#alert-success {
+    background-color: #4CAF50;
+}
+
+#alert-success li {
+    color: white;
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: #262121;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+}
+
+.col h4 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.col a {
+    color: #2f2d2c;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.col a:hover {
+    color: var(--primary-color);
+}
+
+.email-input {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.email-input input[type="email"] {
+    width: 70%;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.email-input button[type="submit"] {
+    background-color: var(--primary-color);
+    height: 30px;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.email-input button[type="submit"]:hover {
+    background-color: var(--secondary-color);
+}
+
+.container {
+    position: relative;
+
+
+}
+
+.product-container {
+    position: relative;
+    z-index: 1;
+
+}
+
+.container {
+    position: relative;
+}
+
+.meteor-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.meteor {
+    position: absolute;
+    animation: moveDiagonally 5s linear infinite;
+    width: 150px;
+    height: 150px;
+    top: -50px;
+    left: 0;
+    transform: translateX(-50%);
+}
+
+@keyframes moveDiagonally {
+    0% {
+        transform: translateY(-100%) translateX(0%);
+    }
+
+    100% {
+        transform: translateY(100vh) translateX(-300%);
+    }
+}
+
+.meteor2 {
+    position: absolute;
+    animation: moveDiagonally 3s linear infinite;
+    width: 150px;
+    height: 150px;
+    top: -50px;
+    left: 0;
+    transform: translateX(-50%);
+}
+
+@keyframes moveDiagonally {
+    0% {
+        transform: translateY(-100%) translateX(0%);
+    }
+
+    100% {
+        transform: translateY(100vh) translateX(-300%);
+    }
+}
+
+.meteor3 {
+    position: absolute;
+    animation: moveDiagonally 10s linear infinite;
+    width: 150px;
+    height: 150px;
+    top: -50px;
+    left: 0;
+    transform: translateX(-50%);
+}
+
+@keyframes moveDiagonally {
+    0% {
+        transform: translateY(-100%) translateX(0%);
+    }
+
+    100% {
+        transform: translateY(100vh) translateX(-300%);
+    }
+}
+
+i {
+    color: rgb(137, 133, 133);
+}
