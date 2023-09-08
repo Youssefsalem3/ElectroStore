@@ -3,7 +3,7 @@
 
 **To create this website i used figma to make the initial design then i drew the schema using drawio and finally coded the website used html,css and javascript for the front end and php laravel for the backend to make it fully ready**
 
-#**User Page**
+# **User Page**
 ## **1)Home Page**
 You can see all the products here and their categories and you can either login,register or search for your favorite product and see more info about it but you can't access your cart or add anything to it without logging in or registering first.
 
@@ -28,7 +28,7 @@ After clicking on a product which is in stock you will get the full details abou
 Here is your cart where you can finally place your order 
 ![Cart](https://www.imgbly.com/ib/jcU1KHF52l.png)
 
-#**Admin Page**
+# **Admin Page**
 
 ## **1)Home Page**
 And here you can see the sidebar containing all the functions that you need as an admin and the most important part here is the statistics dashboard where you can keep track of your store progress
@@ -51,5 +51,7 @@ Here you can keep track of all the orders placed by your customers joining all t
 ![orders](https://www.imgbly.com/ib/mv1EVFdEMV.png)
 
 #**That's not all you can see a full demo video here which include nearlly everything in the project feel free to check the code too !**
+
 **Designed and created by [Youssef Salem](https://linkedin.com/in/youssef-salem3)**
+
 **Demo video:[Demo](https://clipchamp.com/watch/0HjxctkAcFY)**
