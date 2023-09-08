@@ -7,7 +7,7 @@
 ## **1)Home Page**
 You can see all the products here and their categories and you can either login,register or search for your favorite product and see more info about it but you can't access your cart or add anything to it without logging in or registering first.
 
-![Home](https://www.imgbly.com/ib/Zno4WaJ5Mz.png)
+![Home](https://www.imgbly.com/ib/yNn2b3qVoC.png)
 
 ## **2)Login & registeration page**
 If you tried to add anything in your cart without loging in you will be redirected to the login page using jetstream which laravel provides to secure the authentication which secure the login and add some great features and same goes for registeration if you are a new user too! 
